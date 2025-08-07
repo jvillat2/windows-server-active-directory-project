@@ -1,2 +1,3 @@
-# windows-server-active-directory-project
-A Windows Server lab project simulating a full Active Directory setup for a fictional company using GPOs, OU structure, roaming profiles, and more.
+# Windows Server Active Directory Lab (MacroSoft)
+This project simulates the full deployment of an Active Directory infrastructure in a virtual lab environment. It includes user and group management, organizational units, file sharing, group policy management, and system security configuration.
+
