@@ -35,9 +35,9 @@ Network Mode: NATNetwork (DHCP disabled)
 
 ## Part 1: Create Users, Groups, and OUs
 
-* Departments: IT, Sales, Marketing (All under New York Site)
+* Departments: IT, Sales, Marketing
 * Created OUs for each department
-* Created groups for each department
+* Created security groups for each department
 * Created user accounts using naming convention (e.g., Jdoe)
 * Configured user properties:
   * Password change at next login
@@ -47,9 +47,37 @@ Screenshots included:
 
 OU structure
 
-Departmental groups
+  <img width="175" height="93" alt="image" src="https://github.com/user-attachments/assets/f46d3469-918f-4dad-b734-b6ceec65ea13" />
 
-Users placed in correct OUs and groups
+
+Departmental security groups
+* IT security group
+
+  <img width="800" height="483" alt="image" src="https://github.com/user-attachments/assets/ae35df5e-6004-4c9f-a77a-2d98c2215e74" />
+
+* Sales security group
+
+  <img width="801" height="480" alt="image" src="https://github.com/user-attachments/assets/48a78796-54aa-4a06-9f56-93c17e1e03b8" />
+
+* Marketing security group
+
+  <img width="813" height="489" alt="image" src="https://github.com/user-attachments/assets/2e60b98b-8fbd-4168-87f7-c353ae3e3259" />
+
+
+Users placed in OUs and groups
+
+* IT
+
+  <img width="802" height="480" alt="image" src="https://github.com/user-attachments/assets/b3f8095c-a502-45f6-9472-daff8bc0de40" />
+
+* Sales
+
+  <img width="803" height="481" alt="image" src="https://github.com/user-attachments/assets/0129e389-98af-47cf-bbfa-b8ce1a90e3be" />
+
+* Marketing
+
+  <img width="802" height="482" alt="image" src="https://github.com/user-attachments/assets/b1944efa-76a4-4217-a919-b4eb93a50476" />
+
 
 ## Part 2: Setup Resources and Profiles
 
@@ -68,7 +96,22 @@ c) Roaming Profiles
 
 Screenshots included:
 
-Department shares and access tests
+Department shares and sharing permissions
+* IT
+  
+  <img width="544" height="92" alt="image" src="https://github.com/user-attachments/assets/403e14ea-d4de-453b-b0e7-d95ebc7a1bed" />
+  <img width="924" height="391" alt="image" src="https://github.com/user-attachments/assets/1f02bd13-b18a-4c1f-9d6c-094bc880b3bc" />
+
+* Sales
+  
+  <img width="527" height="95" alt="image" src="https://github.com/user-attachments/assets/55e56a96-6536-41e8-b12f-eb7165835daf" />
+  <img width="912" height="301" alt="image" src="https://github.com/user-attachments/assets/3c32a298-4f5b-4563-92b0-7acfd5c8cbd5" />
+
+* Marketing
+  
+  <img width="547" height="68" alt="image" src="https://github.com/user-attachments/assets/5e0bce58-3a7f-44c2-aceb-09ea81f034ca" />
+  <img width="910" height="391" alt="image" src="https://github.com/user-attachments/assets/ba2d0bcc-bb53-4342-acd2-c79ddf84f005" />
+
 
 NTFS permissions
 
